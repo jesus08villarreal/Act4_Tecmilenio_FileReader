@@ -48,4 +48,8 @@ public class AddressBook {
     public void delete(String number) {
         contacts.remove(number);
     }
+
+    public Map<String, String> getContacts() {
+        return contacts;
+    }
 }
